@@ -1,0 +1,104 @@
+body,
+p,
+li,
+a,
+input,
+label,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Poppins", sans-serif;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+}
+
+.top-logo {
+  filter: invert(1);
+  /* margin-bottom: 2rem;
+  margin-top: 3rem; */
+}
+
+.mainslider {
+  position: relative;
+}
+
+.primary-heading {
+  position: absolute;
+  top: 110px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 100px;
+}
+
+.primary-heading h1 {
+  font-size: 54px;
+}
+
+.mainslider .owl-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+section.formsection {
+  padding: 50px 0;
+}
+
+.form-group {
+  font-weight: 600;
+}
+
+.secondary-heading {
+  color: #adb5bd;
+  padding-left: 12px;
+  padding-bottom: 5px;
+}
+
+.side-border {
+  border: 1px solid #000;
+  background-color: #f1f3f5;
+  border-radius: 0;
+}
+
+.btn-submit {
+  font-size: 25px;
+}
+
+.brand-name,
+.address,
+.phone-num,
+.mail-add {
+  color: #fff;
+}
+
+.footer-address {
+  margin-top: 40px;
+}
+
+.link-footer:link,
+.link-footer:active,
+.phone-num a,
+.mail-add a,
+span a,
+.terms,
+.mplus {
+  color: white;
+  text-decoration: none;
+}
+
+.terms {
+  color: #000;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 27px;
+}
