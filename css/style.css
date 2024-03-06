@@ -14,15 +14,14 @@ h6,
 button {
   font-family: "Poppins", sans-serif;
 }
+
+.header-logo {
+  width: 250px;
+}
+
 .hero-img {
   width: 100%;
   height: 100%;
-}
-
-.top-logo {
-  filter: invert(1);
-  /* margin-bottom: 2rem;
-  margin-top: 3rem; */
 }
 
 .mainslider {
@@ -100,6 +99,11 @@ span a,
 .social-icon {
   color: #fff;
   font-size: 27px;
+}
+
+.footer-logo {
+  width: 125px;
+  height: 112px;
 }
 
 @media (max-width: 400px) {
