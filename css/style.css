@@ -15,6 +15,17 @@ button {
   font-family: "Poppins", sans-serif;
 }
 
+.primary-heading {
+  position: absolute;
+  top: 50px;
+  color: #fff;
+  z-index: 9999;
+}
+
+.primary-heading h1 {
+  font-size: 70px;
+}
+
 .header-logo {
   width: 250px;
 }
@@ -28,17 +39,6 @@ button {
   position: relative;
 }
 
-.primary-heading {
-  position: absolute;
-  top: 50px;
-  color: #fff;
-  z-index: 9999;
-}
-
-.primary-heading h1 {
-  font-size: 70px;
-}
-
 .mainslider .owl-dots {
   position: absolute;
   bottom: 20px;
@@ -46,6 +46,7 @@ button {
   right: 0;
   margin: auto;
 }
+
 section.formsection {
   padding: 50px 0;
 }
@@ -106,6 +107,7 @@ span a,
   height: 112px;
 }
 
+/* moble screen below  */
 @media (max-width: 600px) {
   .primary-heading h1 {
     font-size: 30px;
